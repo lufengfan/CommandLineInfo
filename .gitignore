@@ -1,0 +1,13 @@
+﻿
+
+#Visual Studio无关文件
+.suo
+
+#编译结果文件夹
+bin
+obj
+*.chm
+
+#参考文件
+CommandLineInfo.Infrastructure
+参考

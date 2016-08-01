@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="83b08ded-9092-44ab-b1b5-d61c56f33987" visible="True" isDefault="true" isSelected="true" title="Welcome to SamLu.CommandLineInfo">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="Welcome" />
+    </HelpKeywords>
+  </Topic>
+  <Topic id="4c73dea1-95d2-461e-87f8-ae435f6afc9f" visible="True" isExpanded="true" title="版本历史">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="version, history" />
+    </HelpKeywords>
+    <Topic id="1105e711-2b64-4926-9d82-e4b93506d9be" visible="True" title="版本 1.0.0.0">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version, 1.0.0.0" />
+      </HelpKeywords>
+    </Topic>
+  </Topic>
+</Topics>

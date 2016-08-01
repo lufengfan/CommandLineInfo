@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="1105e711-2b64-4926-9d82-e4b93506d9be" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>版本 1.0.0.0 发布于 2016.7.1
+			</para>
+		</introduction>
+
+		<section>
+			<title>本次发布做出的修改</title>
+			<content>
+
+				<list class="bullet">
+          <!--[TODO: Add change items here]-->
+          <!--
+					<listItem>
+						<para></para>
+					</listItem>
+          -->
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="4c73dea1-95d2-461e-87f8-ae435f6afc9f" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

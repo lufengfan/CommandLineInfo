@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9044E7D1-04CF-4D53-A718-F07747F0DAB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SamLu.CommandLineInfo.Infrastructure</RootNamespace>
+    <AssemblyName>SamLu.CommandLineInfo.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SamLu.CommandLineInfo.Infrastructure.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\SamLu.CommandLineInfo.Infrastructure.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\..\SamLu.CommandLineInfo.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SamLu, Version=1.6.0.0, Culture=neutral, PublicKeyToken=62bf6dedc251d3c5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\SamLu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\AssemblyLicenseAttribute.cs" />
+    <Compile Include="Attributes\AssemblyUsageAttribute.cs" />
+    <Compile Include="Attributes\BadOptionInfo.cs" />
+    <Compile Include="Attributes\BaseOptionAttribute.cs" />
+    <Compile Include="Attributes\HelpOptionAttribute.cs" />
+    <Compile Include="Attributes\HelpVerbOptionAttribute.cs" />
+    <Compile Include="Attributes\IParserState.cs" />
+    <Compile Include="Attributes\MultilineTextAttribute.cs" />
+    <Compile Include="Attributes\OptionArrayAttribute.cs" />
+    <Compile Include="Attributes\OptionAttribute.cs" />
+    <Compile Include="Attributes\OptionListAttribute.cs" />
+    <Compile Include="Attributes\Parser.cs" />
+    <Compile Include="Attributes\ParserException.cs" />
+    <Compile Include="Attributes\ParserSettings.cs" />
+    <Compile Include="Attributes\ParserState.cs" />
+    <Compile Include="Attributes\ParserStateAttribute.cs" />
+    <Compile Include="Attributes\ParsingError.cs" />
+    <Compile Include="Attributes\ValueListAttribute.cs" />
+    <Compile Include="Attributes\ValueOptionAttribute.cs" />
+    <Compile Include="Attributes\VerbOptionAttribute.cs" />
+    <Compile Include="Text\Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text\HelpText.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

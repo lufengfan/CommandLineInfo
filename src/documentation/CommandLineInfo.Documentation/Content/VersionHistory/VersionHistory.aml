@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="4c73dea1-95d2-461e-87f8-ae435f6afc9f" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>本章节中这个主题列出了在 SamLu.CommandLineInfo 整个开发过程中进行的修改。</para>
+		</introduction>
+
+		<section>
+			<title>版本历史</title>
+			<content>
+				<para>选择下方的其中一个版本获得修改的详细描述。</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><link xlink:href="1105e711-2b64-4926-9d82-e4b93506d9be" /></para>
+					</listItem>
+          
+          <!--[TODO: Add links to each specific version page]-->
+          <!--
+					<listItem>
+						<para><link xlink:href="" /></para>
+					</listItem>
+          -->
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="83b08ded-9092-44ab-b1b5-d61c56f33987" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>
